@@ -17,6 +17,10 @@ es5-shim@4.8.0                # ECMAScript 5 compatibility for older browsers
 ecmascript@0.11.1              # Enable ECMAScript2015+ syntax in app code
 shell-server@0.3.1            # Server-side component of the `meteor shell` command
 
+<<<<<<< HEAD
+=======
+autopublish@1.0.7             # Publish all data to the clients (for prototyping)
+>>>>>>> 30479fb974007e88bdd6ecce20a0e19b2f2f862f
 reactive-dict
 accounts-ui
 accounts-password

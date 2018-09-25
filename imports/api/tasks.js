@@ -4,6 +4,7 @@ import { Mongo } from 'meteor/mongo';
 
 export const Tasks = new Mongo.Collection('tasks');
 
+<<<<<<< HEAD
 if (Meteor.isServer) {
   // This code only runs on the server
   Meteor.publish('tasks', function tasksPublication() {
@@ -11,6 +12,8 @@ if (Meteor.isServer) {
   });
 }
 
+=======
+>>>>>>> 30479fb974007e88bdd6ecce20a0e19b2f2f862f
 Meteor.methods({
   'tasks.insert'(text) {
     check(text, String);
